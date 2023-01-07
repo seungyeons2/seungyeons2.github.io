@@ -104,15 +104,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  name             : "SI SEUNG YEON"
+  avatar           : "/assets/images/avatar01.png"
+  bio              : "멋진 홈페이지를 만들 거에요..."
   location         : "Somewhere"
-  email            :
+  email            : "seungyeonsi913@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:seungyeonsi913@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
