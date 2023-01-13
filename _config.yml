@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://seungyeons2.github.io
+# url:                   https://seungyeons2.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -48,21 +48,21 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             카테고리 1
     url:               /example/
-  - title:             Documentation
+  - title:             카테고리 2
     url:               /docs/
-  - title:             About
+  - title:             카테고리 3
     url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
+  - title:             .
     url:               /LICENSE/
-  - title:             NOTICE
+  - title:             .
     url:               /NOTICE/
-  - title:             CHANGELOG
+  - title:             .
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
@@ -87,13 +87,13 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/background.png
+accent_color:          rgb(255,255,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(114,187,117)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
