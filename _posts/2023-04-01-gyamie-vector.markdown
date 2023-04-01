@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "갸미 일러스트 png & svg 파일 배포"
-date:   2023-04-01 17:00:00 +0900
-categories: share
+date:   2023-04-01 16:00:00 +0900
+categories: notice
 ---
 
 ![My helpful screenshot](/assets/share/벚꽃2023.png)
