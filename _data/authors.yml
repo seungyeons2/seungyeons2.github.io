@@ -1,30 +1,27 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1:seungyeon
-  name:<seungyeon>
-  email:<seungyeonsi913@gmail.com>
-
-  # Used at the bottom of each page and at the top of the `about` layout
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    언젠가 멋진 소개글을 쓸 거에요...
+author1:
+  name: Seungyeon Si
+  email: seungyeonsi913@gmail.com
+  about: |
+    언젠가 멋진 소개글을 쓸 거예요...
 
   # This photo will be used in the about section
   picture:
-    path:            https://ibb.co/xMvQr58
+    path: assets/img/profile.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://ibb.co/xMvQr58
-      2x:            https://ibb.co/CKtPRbq
+      1x: assets/img/profile.png
+      2x: assets/img/profile 256.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
     # twitter:         <username>
-    github:          <seungyeons2>
-    email:           <seungyeonsi913@gmail.com>
+    github: <seungyeons2>
+    email: <seungyeonsi913@gmail.com>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -61,14 +58,3 @@ author1:seungyeon
     # paypal:          <username>
     # download:        <url>
     # keybase          <username>
-
-# Another author (optional)
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-   
-
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
