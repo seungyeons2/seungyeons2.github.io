@@ -48,11 +48,13 @@ author:
 # Add links to the sidebar.
 
 menu:
-  - title: 포트폴리오 (프로젝트)
+  - title: Projects
     url: /projects/
-  - title: 기술 문서 (CS Study)
-    url: /cloud-programming/
-  - title: 일상 잡담 (ETC)
+  - title: Computer Science
+    url: /cs/
+  - title: English Study
+    url: /english/
+  - title: 일상
     url: /etc/
   - title: 전체 태그
     url: /tags/
@@ -60,15 +62,15 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title: .
+  - title: license
     url: /LICENSE/
-  - title: .
+  - title: notice
     url: /NOTICE/
-  - title: .
+  - title: changelog
     url: /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2021. All rights reserved.
+copyright: ©2025. All rights reserved.
 
 # Format of the permalinks
 permalink: /:categories/:year-:month-:day-:title/

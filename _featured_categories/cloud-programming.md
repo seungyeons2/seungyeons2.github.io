@@ -3,7 +3,7 @@ layout: list
 title: 클라우드 프로그래밍
 slug: cloud-programming
 description: >
-  4학년 1학기 수강 전공과목인 클라우드 프로그래밍의 공부 내용을 정리합니다..
-menu: true
+  AWS, Docker, Kubernetes 등 클라우드 컴퓨팅과 관련된 기술들을 학습합니다.
+parent: cs
 order: 2
 ---

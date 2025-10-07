@@ -9,15 +9,24 @@
 - **레이아웃**: `project`
 - **메뉴 접근**: "포트폴리오 (프로젝트)" → `/projects/`
 
-### 2. **기술 문서/CS 공부** (`_posts/` 컬렉션)
+### 2. **Computer Science** (`_posts/` 컬렉션)
 
-- **목적**: CS 지식, 기술 학습 내용
+- **목적**: 컴퓨터 과학 관련 학습 내용
 - **위치**: `_posts/` 디렉토리
-- **카테고리**: `cloud-programming`, `nodejs` 등
-- **태그**: `study`, 기술별 태그
-- **메뉴 접근**: "기술 문서 (CS Study)" → `/cloud-programming/`
+- **상위 카테고리**: `cs`
+- **하위 카테고리**:
+  - `cloud-programming`
+  - `computer-architecture`
+  - `nodejs`
 
-### 3. **일상 잡담** (`_posts/` 컬렉션)
+### 3. **English Study** (`_posts/` 컬렉션)
+
+- **목적**: 영어 학습 과정과 방법 기록
+- **카테고리**: `english`
+- **태그**: `vocabulary`, `grammar`, `speaking`, `writing`, `opic` 등
+- **메뉴 접근**: "English Study" → `/english/`
+
+### 4. **일상** (`_posts/` 컬렉션)
 
 - **목적**: 개인적인 생각, 일상 기록
 - **카테고리**: `etc`
@@ -41,7 +50,7 @@ bundle exec jekyll compose project "프로젝트 회고 제목"
 
 ### 프론트 매터 예시
 
-#### 포스트 (기술 문서/일상)
+#### CS 관련 포스트
 
 ```yaml
 ---
@@ -51,8 +60,38 @@ description: >
   검색엔진용 짧은 설명~~
 image:
   path: /assets/img/posts/post-slug-name/cover.jpg
-categories: [cloud-programming] # 또는 [etc]
-tags: [study, aws, docker]
+categories: [cloud-programming] # 또는 [computer-architecture], [nodejs]
+tags: [cs, aws, docker] # cs 태그 + 세부 기술 태그
+---
+```
+
+#### 영어 공부 포스트
+
+```yaml
+---
+layout: post
+title: "영어 공부 제목"
+description: >
+  영어 학습 내용 요약
+image:
+  path: /assets/img/posts/post-slug-name/cover.jpg
+categories: [english]
+tags: [vocabulary, grammar, speaking] # 학습 영역별 태그
+---
+```
+
+#### 일상 포스트
+
+```yaml
+---
+layout: post
+title: "일상 이야기 제목"
+description: >
+  일상 내용 요약
+image:
+  path: /assets/img/posts/post-slug-name/cover.jpg
+categories: [etc]
+tags: [daily, thoughts]
 ---
 ```
 
@@ -118,15 +157,41 @@ image:
 
 ### 카테고리 (대분류)
 
-- `cloud-programming`: AWS, Docker, Kubernetes 등 클라우드/인프라
-- `nodejs`: Node.js, JavaScript 관련
+#### CS 관련
+
+- `cs`
+- `cloud-programming`: AWS, Docker, Kubernetes..
+- `computer-architecture`
+- `nodejs`
+
+#### 기타
+
+- `english`: 영어 학습
 - `etc`: 일상, 개인적인 글
 
 ### 태그 (세분류)
 
-- `study`: 학습 내용
-- 기술별: `aws`, `docker`, `react`, `typescript` 등
-- 프로젝트별: `portfolio`, `web-development` 등
+#### CS 관련 태그
+
+- `cs`: CS 전반
+- 기술별: `aws`, `docker`, `kubernetes`, `cpu`, `memory` 등
+- 학습 유형: `theory`, `practice`, `tutorial` 등
+
+#### 영어 관련 태그
+
+- `vocabulary`
+- `grammar`
+- `speaking`
+- `writing`
+- `reading`
+- `listening`
+- `opic`
+
+#### 기타
+
+- `daily`: 일상
+- `thoughts`: 생각/감상
+- `review`: 리뷰/후기
 
 ## 이미지 권장사항
 
