@@ -80,8 +80,8 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
@@ -318,16 +318,17 @@ include:
 plugins:
   - jekyll-default-layout
   - jekyll-feed
-  - jekyll-optional-front-matter
   - jekyll-paginate
-  - jekyll-readme-index
   - jekyll-redirect-from
-  - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-titles-from-headings
   - jekyll-include-cache
-  - jekyll-last-modified-at
+  # GitHub Pages 미지원 플러그인들 (로컬 개발용)
+  # - jekyll-optional-front-matter
+  # - jekyll-readme-index
+  # - jekyll-relative-links
+  # - jekyll-titles-from-headings
+  # - jekyll-last-modified-at
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -384,34 +385,34 @@ compress_html:
 sass:
   style: compressed
 
-# Jekyll Compose Defaults
+# Jekyll Compose Defaults (disabled for GitHub Pages)
 # ---------------------------------------------------------------------------------------
 
-jekyll_compose:
-  default_front_matter:
-    drafts:
-      layout: post
-      description: >
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-    posts:
-      layout: post
-      description: >
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-    projects:
-      layout: project
-      description: >
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-      links:
-        - title: Project Link
-          url: https://example.com
+# jekyll_compose:
+#   default_front_matter:
+#     drafts:
+#       layout: post
+#       description: >
+#         A short ~160 character description of your post for search engines,
+#         social media previews, etc.
+#       image:
+#         path: /assets/img/sidebar-bg.jpg
+#     posts:
+#       layout: post
+#       description: >
+#         A short ~160 character description of your post for search engines,
+#         social media previews, etc.
+#       image:
+#         path: /assets/img/sidebar-bg.jpg
+#     projects:
+#       layout: project
+#       description: >
+#         A short ~160 character description of your post for search engines,
+#         social media previews, etc.
+#       image:
+#         path: /assets/img/sidebar-bg.jpg
+#       links:
+#         - title: Project Link
+#           url: https://example.com
 
 asset_url: /assets
