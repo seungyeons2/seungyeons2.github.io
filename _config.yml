@@ -48,15 +48,13 @@ author:
 # Add links to the sidebar.
 
 menu:
-  - title: 공지사항
-    url: /notice/
-  - title: 클라우드 프로그래밍
+  - title: 포트폴리오 (프로젝트)
+    url: /projects/
+  - title: 기술 문서 (CS Study)
     url: /cloud-programming/
-  - title: Node.js
-    url: /nodejs/
-  - title: 기타
+  - title: 일상 잡담 (ETC)
     url: /etc/
-  - title: 태그
+  - title: 전체 태그
     url: /tags/
 
 # Add links to the footer.
@@ -82,8 +80,8 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
